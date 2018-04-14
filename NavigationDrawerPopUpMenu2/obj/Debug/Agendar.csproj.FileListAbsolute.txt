@@ -1,6 +1,3 @@
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe.config
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.exe
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\NavigationDrawerPopUpMenu2.pdb
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignColors.dll
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.dll
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\MaterialDesignThemes.Wpf.pdb
@@ -8,19 +5,43 @@ C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bi
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar.csprojResolveAssemblyReference.cache
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Login.g.cs
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.g.cs
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.g.cs
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.g.cs
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\App.g.cs
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.cache
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2_MarkupCompile.lref
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\App.baml
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Login.baml
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\MainWindow.baml
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlCreate.baml
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\UserControlHome.baml
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.g.resources
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.Properties.Resources.resources
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar.csproj.GenerateResource.Cache
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar.csproj.CoreCompileInputs.cache
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.exe
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\NavigationDrawerPopUpMenu2.pdb
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlCalendario.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlHome.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlHorario.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlRelatorio.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlReserva.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlStatus.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlCalendario.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlHome.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlHorario.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlRelatorio.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlReserva.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlStatus.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Janela.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Pagina.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Janela.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Pagina.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\Agendar.exe.config
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\Agendar.exe.manifest
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\Agendar.application
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\Agendar.exe
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\Agendar.pdb
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar_MarkupCompile.cache
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar_MarkupCompile.lref
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar.g.resources
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar.Properties.Resources.resources
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar.TrustInfo.xml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar.exe.manifest
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar.application
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar.exe
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Agendar.pdb
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EO.Base.dll
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EO.Wpf.dll
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EO.Base.xml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EO.Wpf.xml

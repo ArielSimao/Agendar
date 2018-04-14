@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NavigationDrawerPopUpMenu2"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        mc:Ignorable="d" Height="600" Width="1080" Foreground="White" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+        mc:Ignorable="d" Height="760" Width="1280" Foreground="White" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
     <Window.Resources>
         <Storyboard x:Key="OpenMenu">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
@@ -29,12 +29,16 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid Background="#FFDEDEDE">
-        <Grid x:Name="GridMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="540" Width="1010"/>
+        <Grid x:Name="GridMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="700" Width="1210"/>
         <Grid Height="60" VerticalAlignment="Top" Background="#FF2196F3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="38*"/>
+            </Grid.ColumnDefinitions>
             <Grid.Effect>
                 <DropShadowEffect BlurRadius="1" ShadowDepth="1" Color="#FFACACAC"/>
             </Grid.Effect>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column="1">
 
                 <materialDesign:PopupBox PlacementMode="BottomAndAlignRightEdges" StaysOpen="False" Margin="10">
                     <StackPanel Width="150">
@@ -42,13 +46,14 @@
                         <Button Content="Account"/>
                         <Button Content="Help"/>
                         <Separator/>
-                        <Button Content="Log Out" Name="BtnSair" Click="BtnSair_Click"/>
+                        <Button Content="Log Out" Name="BtnLogOut" Click="BtnLogOut_Click"/>
+                        <Button Content="Sair" Name="BtnSair" Click="BtnSair_Click"/>
                     </StackPanel>
                 </materialDesign:PopupBox>
             </StackPanel>
-            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22">Bristol Zanibini Hotel</TextBlock>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" Grid.Column="1" Margin="271,15,438,15">Bristol Zanibini Hotel</TextBlock>
         </Grid>
-        <Grid x:Name="GridMenu" Width="65" HorizontalAlignment="Left" Background="#FF31577E">
+        <Grid x:Name="GridMenu" Width="65" HorizontalAlignment="Left" Background="#FF33288B">
             <Grid.Effect>
                 <DropShadowEffect BlurRadius="2" ShadowDepth="1" Color="#FFAEAEAE"/>
             </Grid.Effect>
@@ -72,30 +77,70 @@
                     <Image Height="55" VerticalAlignment="Bottom" Source="Images/logo.jpeg" Margin="0,0,0,3"/>
                 </Grid>
                 <ListView x:Name="ListViewMenu" Foreground="#FF5C99D6" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ListViewMenu_SelectionChanged">
-                    <ListViewItem x:Name="ItemHome" Height="60">
+                   
+                    <ListViewItem x:Name="ItemHome" Height="60" Foreground="White">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="ViewDashboard" Height="25" Width="25" Margin="10" Foreground="White"/>
-                            <TextBlock Text="Home" VerticalAlignment="Center" Margin="20 10"/>
+                            <TextBlock Text="Home" VerticalAlignment="Center" Margin="20 10" Foreground="White"/>
                         </StackPanel>
                     </ListViewItem>
-                    <ListViewItem x:Name="ItemCreate" Height="60">
+                    
+                    <ListViewItem x:Name="ItemCalendario" Height="60" Foreground="White">
                         <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="Pencil" Height="25" Width="25" Margin="10" Foreground="White" Grid.IsSharedSizeScope="True"/>
-                            <TextBlock Text="Create" VerticalAlignment="Center" Margin="20 10"/>
+                            <materialDesign:PackIcon Kind="Calendar" Height="25" Width="25" Margin="10" Foreground="White" Grid.IsSharedSizeScope="True"/>
+                            <TextBlock Text="Calendario" VerticalAlignment="Center" Margin="20 10" Foreground="White"/>
                         </StackPanel>
                     </ListViewItem>
-                    <ListViewItem Height="60" Foreground="#FF2196F3" Grid.IsSharedSizeScope="True">
+                    
+                    <ListViewItem x:Name="ItemReserva" Height="60" ForceCursor="True" Foreground="White" Grid.IsSharedSizeScope="True">
                         <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="Ticket" Height="25" Width="25" Margin="10" Foreground="White"/>
-                            <TextBlock Text="Tickets" VerticalAlignment="Center"  Margin="20 10"/>
+                            <materialDesign:PackIcon Kind="ContentSaveAll" Height="25" Width="25" Margin="10" Foreground="White" Grid.IsSharedSizeScope="True"/>
+                            <TextBlock Text="Reserva" VerticalAlignment="Center"  Margin="20 10" Foreground="White"/>
                         </StackPanel>
                     </ListViewItem>
-                    <ListViewItem Height="60" ForceCursor="True" Foreground="#FFC55CD6" Grid.IsSharedSizeScope="True">
+
+                    <ListViewItem x:Name="ItemStatus" Height="60" ForceCursor="True" Foreground="White" Grid.IsSharedSizeScope="True">
                         <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="Message" Height="25" Width="25" Margin="10" Foreground="White" Grid.IsSharedSizeScope="True"/>
-                            <TextBlock Text="Messages" VerticalAlignment="Center"  Margin="20 10"/>
+                            <materialDesign:PackIcon Kind="CheckAll" Height="25" Width="25" Margin="10" Foreground="White" Grid.IsSharedSizeScope="True"/>
+                            <TextBlock Text="status" VerticalAlignment="Center"  Margin="20 10" Foreground="White"/>
                         </StackPanel>
                     </ListViewItem>
+                    
+                    <ListViewItem x:Name="ItemHorario" Height="60" Foreground="White" Grid.IsSharedSizeScope="True">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="Clock" Height="25" Width="25" Margin="10" Foreground="White"/>
+                            <TextBlock Text="Horario" VerticalAlignment="Center"  Margin="20 10" Foreground="White"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    
+                    <ListViewItem x:Name="ItemRelatorio" Height="60" ForceCursor="True" Foreground="White" Grid.IsSharedSizeScope="True">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="FileDocument" Height="25" Width="25" Margin="10" Foreground="White" Grid.IsSharedSizeScope="True"/>
+                            <TextBlock Text="Relatorio" VerticalAlignment="Center"  Margin="20 10" Foreground="White"/>
+                        </StackPanel>
+                    </ListViewItem>
+
+                    <ListViewItem x:Name="ItemScream" Height="60" Foreground="White">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="DesktopMac" Height="25" Width="25" Margin="10" Foreground="White"/>
+                            <TextBlock Text="Home" VerticalAlignment="Center" Margin="20 10" Foreground="White"/>
+                        </StackPanel>
+                    </ListViewItem>
+
+                    <ListViewItem x:Name="ItemJanela" Height="60" Foreground="White">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="PageFirst" Height="25" Width="25" Margin="10" Foreground="White"/>
+                            <TextBlock Text="Janela" VerticalAlignment="Center" Margin="20 10" Foreground="White"/>
+                        </StackPanel>
+                    </ListViewItem>
+
+                    <ListViewItem x:Name="ItemPagina" Height="60" Foreground="White">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="PageLast" Height="25" Width="25" Margin="10" Foreground="White"/>
+                            <TextBlock Text="Pagina" VerticalAlignment="Center" Margin="20 10" Foreground="White"/>
+                        </StackPanel>
+                    </ListViewItem>
+
                 </ListView>
             </StackPanel>
         </Grid>

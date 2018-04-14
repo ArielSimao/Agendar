@@ -33,6 +33,7 @@ namespace NavigationDrawerPopUpMenu2
         private void BtnSair(object sender, RoutedEventArgs e)
         {
             Close();
+            Environment.Exit(0);
         }
 
         private void BtnSairClick(object sender, RoutedEventArgs e)

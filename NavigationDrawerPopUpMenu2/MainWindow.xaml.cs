@@ -27,13 +27,22 @@ namespace NavigationDrawerPopUpMenu2
 
         private void BtnSair_Click(object sender, RoutedEventArgs e)
         {
+
+            Close();
+            Environment.Exit(0);
+
+            this.Hide();
+            Login jan2 = new Login();
+            jan2.Show();
+        }
+        private void BtnLogOut_Click(object sender, RoutedEventArgs e)
+        {
             this.Hide();
             Login jan2 = new Login();
             jan2.Show();
         }
 
-
-            private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
+        private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
         {
             ButtonCloseMenu.Visibility = Visibility.Visible;
             ButtonOpenMenu.Visibility = Visibility.Collapsed;
@@ -56,8 +65,16 @@ namespace NavigationDrawerPopUpMenu2
                     usc = new UserControlHome();
                     GridMain.Children.Add(usc);
                     break;
-                case "ItemCreate":
-                    usc = new UserControlCreate();
+                case "ItemCalendario":
+                    usc = new UserControlCalendario();
+                    GridMain.Children.Add(usc);
+                    break;
+                case "ItemReserva":
+                    usc = new UserControlReserva();
+                    GridMain.Children.Add(usc);
+                    break;
+                case "ItemStatus":
+                    usc = new UserControlStatus();
                     GridMain.Children.Add(usc);
                     break;
                 default:
