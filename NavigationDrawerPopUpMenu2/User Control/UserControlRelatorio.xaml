@@ -8,6 +8,15 @@
              d:DesignHeight="300" d:DesignWidth="300" Width="1210" Height="700" IsHitTestVisible="True" Background="#FFE0E0E0">
     <Grid >
         <Label Content="Relatorios" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="1210" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="0,28,0,0"/>
+        <Calendar x:Name="CalendarioRelatorio" HorizontalAlignment="Left" Margin="28,66,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="DgRelatorio" HorizontalAlignment="Left" Height="570" Margin="340,66,0,0" VerticalAlignment="Top" Width="810"/>
+        <GroupBox  Header="Tipo" HorizontalAlignment="Left" Height="152" Margin="28,439,0,0" VerticalAlignment="Top" Width="278">
+            <Grid HorizontalAlignment="Left" Height="102" VerticalAlignment="Top" Width="268" Margin="0,0,0,-2">
+                <RadioButton x:Name="RbRelatorioSimples" Content="Relatorio Simples" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Foreground="Black"/>
+                <RadioButton x:Name="RbRelatorioCompleto" Content="Relatorio Completo" HorizontalAlignment="Left" Margin="0,56,0,0" VerticalAlignment="Top" Foreground="Black"/>
+            </Grid>
+        </GroupBox>
+        <Button Name="BtnImprimirRelatorio" Content="Imprimir" HorizontalAlignment="Left" Margin="98,604,0,0" VerticalAlignment="Top" Width="108"/>
 
     </Grid>
 </UserControl>

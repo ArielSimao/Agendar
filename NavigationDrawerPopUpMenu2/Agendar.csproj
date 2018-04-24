@@ -24,7 +24,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -123,8 +123,14 @@
     <Compile Include="User Control\UserControlReserva.xaml.cs">
       <DependentUpon>UserControlReserva.xaml</DependentUpon>
     </Compile>
+    <Compile Include="User Control\UserControlSobre.xaml.cs">
+      <DependentUpon>UserControlSobre.xaml</DependentUpon>
+    </Compile>
     <Compile Include="User Control\UserControlStatus.xaml.cs">
       <DependentUpon>UserControlStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\UserControlUsuario.xaml.cs">
+      <DependentUpon>UserControlUsuario.xaml</DependentUpon>
     </Compile>
     <Page Include="Login.xaml">
       <SubType>Designer</SubType>
@@ -162,7 +168,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="User Control\UserControlSobre.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="User Control\UserControlStatus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User Control\UserControlUsuario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

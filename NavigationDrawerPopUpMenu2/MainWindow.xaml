@@ -43,10 +43,10 @@
                 <materialDesign:PopupBox PlacementMode="BottomAndAlignRightEdges" StaysOpen="False" Margin="10">
                     <StackPanel Width="150">
                         <Button Content="Settings"/>
-                        <Button Content="Account"/>
-                        <Button Content="Help"/>
+                        <Button Content="Usuarios" Name="BtnUsuario" Click="BtnUsuarioClick"/>
+                        <Button Content="Sobre" Name="BtnUSobre" Click="BtnSobreClick"/>
                         <Separator/>
-                        <Button Content="Log Out" Name="BtnLogOut" Click="BtnLogOut_Click"/>
+                        <Button Content="Logout" Name="BtnLogOut" Click="BtnLogOut_Click"/>
                         <Button Content="Sair" Name="BtnSair" Click="BtnSair_Click"/>
                     </StackPanel>
                 </materialDesign:PopupBox>
@@ -124,20 +124,6 @@
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="DesktopMac" Height="25" Width="25" Margin="10" Foreground="White"/>
                             <TextBlock Text="Home" VerticalAlignment="Center" Margin="20 10" Foreground="White"/>
-                        </StackPanel>
-                    </ListViewItem>
-
-                    <ListViewItem x:Name="ItemJanela" Height="60" Foreground="White">
-                        <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="PageFirst" Height="25" Width="25" Margin="10" Foreground="White"/>
-                            <TextBlock Text="Janela" VerticalAlignment="Center" Margin="20 10" Foreground="White"/>
-                        </StackPanel>
-                    </ListViewItem>
-
-                    <ListViewItem x:Name="ItemPagina" Height="60" Foreground="White">
-                        <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="PageLast" Height="25" Width="25" Margin="10" Foreground="White"/>
-                            <TextBlock Text="Pagina" VerticalAlignment="Center" Margin="20 10" Foreground="White"/>
                         </StackPanel>
                     </ListViewItem>
 

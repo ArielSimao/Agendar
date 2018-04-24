@@ -23,10 +23,6 @@ C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\ob
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlRelatorio.baml
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlReserva.baml
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlStatus.baml
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Janela.g.cs
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Pagina.g.cs
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Janela.baml
-C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\Pagina.baml
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\Agendar.exe.config
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\Agendar.exe.manifest
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\Agendar.application
@@ -45,3 +41,7 @@ C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bi
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EO.Wpf.dll
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EO.Base.xml
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EO.Wpf.xml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlUsuario.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlUsuario.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlSobre.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlSobre.baml

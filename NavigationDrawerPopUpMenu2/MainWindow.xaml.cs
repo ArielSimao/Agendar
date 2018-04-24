@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Agendar.User_Control;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -77,9 +78,38 @@ namespace NavigationDrawerPopUpMenu2
                     usc = new UserControlStatus();
                     GridMain.Children.Add(usc);
                     break;
+                case "ItemHorario":
+                    usc = new UserControlHorario();
+                    GridMain.Children.Add(usc);
+                    break;
+                case "ItemRelatorio":
+                    usc = new UserControlRelatorio();
+                    GridMain.Children.Add(usc);
+                    break;
                 default:
                     break;
             }
+        }
+
+        private void BtnUsuarioClick(object sender, RoutedEventArgs e)
+        {
+            UserControl usc = null;
+            GridMain.Children.Clear();
+
+            usc = new UserControlUsuario();
+            GridMain.Children.Add(usc);
+           
+        }
+
+        private void BtnSobreClick(object sender, RoutedEventArgs e)
+        {
+            UserControl usc = null;
+            GridMain.Children.Clear();
+
+            usc = new UserControlSobre();
+            GridMain.Children.Add(usc);
+
+
         }
     }
 }
