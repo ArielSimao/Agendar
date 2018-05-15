@@ -45,3 +45,4 @@ C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\ob
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlUsuario.baml
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlSobre.g.cs
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlSobre.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlBranco.g.cs

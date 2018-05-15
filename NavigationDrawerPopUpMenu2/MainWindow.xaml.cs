@@ -86,6 +86,10 @@ namespace NavigationDrawerPopUpMenu2
                     usc = new UserControlRelatorio();
                     GridMain.Children.Add(usc);
                     break;
+                case "ItemBranco":
+                    usc = new UserControlBranco();
+                    GridMain.Children.Add(usc);
+                    break;
                 default:
                     break;
             }

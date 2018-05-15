@@ -120,7 +120,7 @@
                         </StackPanel>
                     </ListViewItem>
 
-                    <ListViewItem x:Name="ItemScream" Height="60" Foreground="White">
+                    <ListViewItem x:Name="ItemBranco" Height="60" Foreground="White">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="DesktopMac" Height="25" Width="25" Margin="10" Foreground="White"/>
                             <TextBlock Text="Home" VerticalAlignment="Center" Margin="20 10" Foreground="White"/>

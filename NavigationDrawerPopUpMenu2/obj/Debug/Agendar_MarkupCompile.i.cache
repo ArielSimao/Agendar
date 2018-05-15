@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\App.xaml
-10-1182321852
+11-1618278528
 
-181953412698
+19-335923031
 17535140615
-Login.xaml;MainWindow.xaml;User Control\UserControlCalendario.xaml;User Control\UserControlHome.xaml;User Control\UserControlHorario.xaml;User Control\UserControlRelatorio.xaml;User Control\UserControlReserva.xaml;User Control\UserControlSobre.xaml;User Control\UserControlStatus.xaml;User Control\UserControlUsuario.xaml;
+Login.xaml;MainWindow.xaml;User Control\UserControlBranco.xaml;User Control\UserControlCalendario.xaml;User Control\UserControlHome.xaml;User Control\UserControlHorario.xaml;User Control\UserControlRelatorio.xaml;User Control\UserControlReserva.xaml;User Control\UserControlSobre.xaml;User Control\UserControlStatus.xaml;User Control\UserControlUsuario.xaml;
 
-False
+True
 

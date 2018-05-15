@@ -6,9 +6,9 @@
              xmlns:local="clr-namespace:NavigationDrawerPopUpMenu2"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300" Width="1210" Height="700" IsHitTestVisible="True" Background="#FFE0E0E0">
-    <Grid >
+    <Grid Margin="0,-1,0,1" >
         <Label Content="Reserva De Sala" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="1210" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="0,28,0,0"/>
-        <GroupBox Header="Dados Do Contratante" HorizontalAlignment="Left" Height="246" Margin="43,100,0,0" VerticalAlignment="Top" Width="453">
+        <GroupBox Header="Dados Do Contratante" HorizontalAlignment="Left" Height="246" Margin="43,77,0,0" VerticalAlignment="Top" Width="453">
             <Grid HorizontalAlignment="Left" Height="187" VerticalAlignment="Top" Width="414" Margin="0,-3,0,0">
                 <TextBox x:Name="TxtResponsavel" HorizontalAlignment="Left" Height="23" Margin="85,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319"/>
                 <TextBox x:Name="TxtEmail" HorizontalAlignment="Left" Height="23" Margin="85,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319"/>
@@ -24,16 +24,16 @@
                 <Label Content="Celular :" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="70"/>
             </Grid>
         </GroupBox>
-        <GroupBox Header="Dados Do Evento" HorizontalAlignment="Left" Height="246" Margin="43,393,0,0" VerticalAlignment="Top" Width="453">
+        <GroupBox Header="Dados Do Evento" HorizontalAlignment="Left" Height="246" Margin="43,342,0,0" VerticalAlignment="Top" Width="453">
             <Grid HorizontalAlignment="Left" Height="198" Margin="0,-3,0,-1" VerticalAlignment="Top" Width="443">
-                <TextBox x:Name="TxtTitulo" HorizontalAlignment="Left" Height="23" Margin="100,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="239"/>
+                <TextBox x:Name="TxtTitulo" HorizontalAlignment="Left" Height="23" Margin="100,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283"/>
                 <Label Content="Titulo :" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
                 <Label Content="Inicio :" HorizontalAlignment="Left" Margin="44,53,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50" Height="25"/>
                 <Label Content="Fim :" HorizontalAlignment="Left" Margin="44,88,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
                 <Label Content="Hora :" HorizontalAlignment="Left" Margin="213,53,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
                 <Label Content="Hora :" HorizontalAlignment="Left" Margin="213,88,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
                 <Label Content="Sala :" HorizontalAlignment="Left" Margin="44,130,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
-                <ComboBox Name="CbxSala" HorizontalAlignment="Left" Margin="100,128,0,0" VerticalAlignment="Top" Width="239"/>
+                <ComboBox Name="CbxSala" HorizontalAlignment="Left" Margin="100,128,0,0" VerticalAlignment="Top" Width="101"/>
                 <Label Content="Qnt. Pessoas :" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="84"/>
                 <DatePicker Name="DtpInicioEvento" HorizontalAlignment="Left" Margin="99,52,0,0" VerticalAlignment="Top" Width="100" Height="25" BorderBrush="#89020202"/>
                 <DatePicker Name="DtpFimEvento"  HorizontalAlignment="Left" Margin="100,88,0,0" VerticalAlignment="Top" Width="100" Height="25"/>
@@ -43,7 +43,7 @@
 
             </Grid>
         </GroupBox>
-        <GroupBox Header="Extras" HorizontalAlignment="Left" Height="246" Margin="549,100,0,0" VerticalAlignment="Top" Width="599">
+        <GroupBox Header="Extras" HorizontalAlignment="Left" Height="246" Margin="549,77,0,0" VerticalAlignment="Top" Width="599">
             <Grid Height="193" VerticalAlignment="Top" Width="576">
                 <CheckBox Name="CbSonorizacao" Content="Sonorizacao"  HorizontalAlignment="Left" Margin="0,19,0,0" VerticalAlignment="Top" Foreground="Black"/>
                 <CheckBox Name="CbDatashow" Content="Data Show" HorizontalAlignment="Left" Margin="0,52,0,0" VerticalAlignment="Top" Foreground="Black"/>
@@ -56,17 +56,24 @@
                 <ComboBox Name="CbxCorDecoracao" HorizontalAlignment="Left" Margin="186,149,0,0" VerticalAlignment="Top" Width="84"/>
             </Grid>
         </GroupBox>
-        <GroupBox Header="Coffee" HorizontalAlignment="Left" Height="246" Margin="549,393,0,0" VerticalAlignment="Top" Width="599">
+        <GroupBox Header="Coffee" HorizontalAlignment="Left" Height="246" Margin="549,342,0,0" VerticalAlignment="Top" Width="599">
             <Grid HorizontalAlignment="Left" Height="192" Margin="0,5,0,-3" VerticalAlignment="Top" Width="589">
                 <CheckBox Name="CbBolo" Content="Bolo" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" Foreground="Black"/>
-                <CheckBox Name="CbTorrada" Content="Torrada" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.468,1.278" Foreground="Black"/>
-                <CheckBox Name="CbPaoQueijo" Content="Pao de Queijo" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" Foreground="Black"/>
-                <CheckBox Name="CbPaoManteiga" Content="Pao Com Manteiga" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top" Foreground="Black"/>
-                <CheckBox Name="CbRefrigeirante" Content="Refrigeirante" HorizontalAlignment="Left" Margin="284,146,0,0" VerticalAlignment="Top" Foreground="Black"/>
-                <CheckBox Name="CbSuco" Content="Suco" HorizontalAlignment="Left" Margin="284,99,0,0" VerticalAlignment="Top" Foreground="Black"/>
+                <CheckBox Name="CbTorrada" Content="Torrada" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.468,1.278" Foreground="Black"/>
+                <CheckBox Name="CbPaoQueijo" Content="Pao de Queijo" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" Foreground="Black"/>
+                <CheckBox Name="CbPaoManteiga" Content="Pao Com Manteiga" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Foreground="Black"/>
+                <CheckBox Name="CbRefrigeirante" Content="Refrigeirante" HorizontalAlignment="Left" Margin="284,148,0,0" VerticalAlignment="Top" Foreground="Black"/>
+                <CheckBox Name="CbSuco" Content="Suco" HorizontalAlignment="Left" Margin="284,105,0,0" VerticalAlignment="Top" Foreground="Black" RenderTransformOrigin="0.615,-1"/>
                 <CheckBox Name="CbCafe" Content="Cafe" HorizontalAlignment="Left" Margin="284,12,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" Foreground="Black"/>
-                <CheckBox Name="CbCha" Content="Cha" HorizontalAlignment="Left" Margin="284,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.468,1.278" Foreground="Black"/>
+                <CheckBox Name="CbCha" Content="Cha" HorizontalAlignment="Left" Margin="284,60,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.468,1.278" Foreground="Black"/>
             </Grid>
         </GroupBox>
+        <Button Content="Novo" HorizontalAlignment="Left" Margin="58,638,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Salvar" HorizontalAlignment="Left" Margin="219,638,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Alterar" HorizontalAlignment="Right" Margin="0,638,716,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Limpar" HorizontalAlignment="Left" Margin="710,638,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Excluir" HorizontalAlignment="Left" Margin="557,638,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Pesquisar" HorizontalAlignment="Left" Margin="871,638,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="976,638,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="172" BorderThickness="1"/>
     </Grid>
 </UserControl>

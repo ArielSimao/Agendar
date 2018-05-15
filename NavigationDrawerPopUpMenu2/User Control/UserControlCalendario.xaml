@@ -12,14 +12,15 @@
             <Calendar Name="CalendarioCalendario" HorizontalAlignment="Left" Margin="28,66,0,0" VerticalAlignment="Top"/>
             <DataGrid Name="DgCalendario" HorizontalAlignment="Left" Height="570" Margin="340,66,0,0" VerticalAlignment="Top" Width="810"/>
             <Label Content="Calendario" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="1190" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="0,10,0,0"/>
-            <GroupBox  Header="Filtrar" HorizontalAlignment="Left" Height="197" Margin="28,439,0,0" VerticalAlignment="Top" Width="278">
-                <Grid HorizontalAlignment="Left" Height="148" Margin="0,1,0,-4" VerticalAlignment="Top" Width="257">
-                    <CheckBox Name="CbFiltroTodos" Content="Todas Salas" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Foreground="Black"/>
-                    <CheckBox Name="CbSala1" Content="Sala 1" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.534,2.111" Foreground="Black"/>
-                    <CheckBox Name="CbSala2" Content="Sala 2" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.534,2.111" Foreground="Black"/>
-                    <CheckBox Name="CbSala3" Content="Sala 3" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.534,2.111" Foreground="Black"/>
+            <GroupBox  Header="Filtrar" HorizontalAlignment="Left" Height="155" Margin="28,439,0,0" VerticalAlignment="Top" Width="278">
+                <Grid HorizontalAlignment="Left" Height="99" Margin="0,1,0,0" VerticalAlignment="Top" Width="257">
+                    <CheckBox Name="CbFiltroTodos" Content="Todas Salas" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top" Foreground="Black"/>
+                    <CheckBox Name="CbSala1" Content="Sala 1" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.534,2.111" Foreground="Black"/>
+                    <CheckBox Name="CbSala2" Content="Sala 2" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.534,2.111" Foreground="Black"/>
+                    <CheckBox Name="CbSala3" Content="Sala 3" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.534,2.111" Foreground="Black"/>
                 </Grid>
             </GroupBox>
+            <Button Name="BtnFiltrar" Content="Filtrar" HorizontalAlignment="Left" Margin="125,604,0,0" VerticalAlignment="Top" Width="75"/>
         </Grid>
     </StackPanel>
 

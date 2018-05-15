@@ -108,6 +108,9 @@
     <Compile Include="Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+    <Compile Include="User Control\UserControlBranco.xaml.cs">
+      <DependentUpon>UserControlBranco.xaml</DependentUpon>
+    </Compile>
     <Compile Include="User Control\UserControlCalendario.xaml.cs">
       <DependentUpon>UserControlCalendario.xaml</DependentUpon>
     </Compile>
@@ -148,6 +151,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="User Control\UserControlBranco.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="User Control\UserControlCalendario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

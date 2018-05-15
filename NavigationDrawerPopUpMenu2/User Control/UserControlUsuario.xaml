@@ -19,10 +19,10 @@
                 <Label Content="CPF:" HorizontalAlignment="Left" Margin="40,304,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.604,1.333" HorizontalContentAlignment="Right"/>
                 <Label Content="Telefone:" HorizontalAlignment="Left" Margin="21,335,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
                 <Label Content="Tipo:" HorizontalAlignment="Left" Margin="33,110,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" RenderTransformOrigin="0.639,0.615"/>
-                <TextBox Name="TxtCodigoUsuario" HorizontalAlignment="Left" Height="23" Margin="78,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+                <TextBox Name="TxtCodigoUsuario" HorizontalAlignment="Left" Height="23" Margin="78,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114"/>
                 <TextBox Name="TxtNomeUsuario" HorizontalAlignment="Left" Height="23" Margin="78,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
                 <PasswordBox Name="TxtSenhaUsuario" HorizontalAlignment="Left" Margin="78,72,0,0" VerticalAlignment="Top" Width="250"/>
-                <ComboBox Name="CbTipoUsuario" HorizontalAlignment="Left" Margin="78,108,0,0" VerticalAlignment="Top" Width="150"/>
+                <ComboBox Name="CbTipoUsuario" HorizontalAlignment="Left" Margin="78,108,0,0" VerticalAlignment="Top" Width="114"/>
                 <TextBox Name="TxtEndUsuario" HorizontalAlignment="Left" Height="23" Margin="78,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
                 <TextBox Name="TxtBairroUsuario" HorizontalAlignment="Left" Height="23" Margin="78,181,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
                 <TextBox Name="TxtNumeroUsuario" HorizontalAlignment="Left" Height="23" Margin="78,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>

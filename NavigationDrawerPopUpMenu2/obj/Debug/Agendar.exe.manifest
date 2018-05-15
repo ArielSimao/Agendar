@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Agendar.exe" size="185792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Agendar.exe" size="186816">
       <assemblyIdentity name="Agendar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MA28Vient28m3GLFrKbks2bzvBll+QXtDD4kjAmnAFA=</dsig:DigestValue>
+        <dsig:DigestValue>3EiWs0Gn7sKJFxwazjz9+WWSjh5FNjrPk/gwG1aODmI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
