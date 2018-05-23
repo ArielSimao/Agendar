@@ -46,3 +46,8 @@ C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\ob
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlSobre.g.cs
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlSobre.baml
 C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlBranco.g.cs
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\obj\Debug\User Control\UserControlBranco.baml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EntityFramework.dll
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EntityFramework.xml
+C:\Users\Windows\Documents\NavigationDrawer-master\NavigationDrawerPopUpMenu2\bin\Debug\EntityFramework.SqlServer.xml

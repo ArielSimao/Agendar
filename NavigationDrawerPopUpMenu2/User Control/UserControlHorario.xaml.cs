@@ -28,9 +28,6 @@ namespace NavigationDrawerPopUpMenu2
 
         private void BtnVoltarClick(object sender, RoutedEventArgs e)
         {
-            
-            UserControlBranco(
-          
         }
     }
 }

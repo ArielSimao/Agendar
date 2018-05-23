@@ -11,13 +11,14 @@
             <Calendar Name="CalendarioStatus" HorizontalAlignment="Left" Margin="28,66,0,0" VerticalAlignment="Top"/>
             <DataGrid Name="DgStatus" HorizontalAlignment="Left" Height="570" Margin="340,66,0,0" VerticalAlignment="Top" Width="810"/>
             <Label Content="Status" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="1190" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="0,10,0,0"/>
-            <GroupBox  Header="Status" HorizontalAlignment="Left" Height="197" Margin="28,439,0,0" VerticalAlignment="Top" Width="278">
-                <Grid HorizontalAlignment="Left" Height="149" VerticalAlignment="Top" Width="268" Margin="0,0,0,-4">
+            <GroupBox  Header="Status" HorizontalAlignment="Left" Height="173" Margin="28,439,0,0" VerticalAlignment="Top" Width="278">
+                <Grid HorizontalAlignment="Left" Height="141" VerticalAlignment="Top" Width="268">
                     <RadioButton Name="RbAprovado" Content="Aprovado" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Foreground="#FF060303"/>
-                    <RadioButton Name="RbSemResposta" Content="Sem Resposta" HorizontalAlignment="Left" Margin="0,56,0,0" VerticalAlignment="Top" Foreground="Black"/>
-                    <RadioButton Name="RbNegado" Content="Negado" HorizontalAlignment="Left" Margin="0,106,0,0" VerticalAlignment="Top" Foreground="Black"/>
+                    <RadioButton Name="RbSemResposta" Content="Sem Resposta" HorizontalAlignment="Left" Margin="0,50,0,0" VerticalAlignment="Top" Foreground="Black"/>
+                    <RadioButton Name="RbNegado" Content="Negado" HorizontalAlignment="Left" Margin="0,90,0,0" VerticalAlignment="Top" Foreground="Black"/>
                 </Grid>
             </GroupBox>
+            <Button Name="btnSalvarStatus" Content="Salvar" HorizontalAlignment="Left" Margin="112,630,0,0" VerticalAlignment="Top" Width="75"/>
         </Grid>
     </StackPanel>
 

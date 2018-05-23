@@ -8,7 +8,7 @@
              d:DesignHeight="300" d:DesignWidth="300" Background="#FFE0E0E0" Height="700" Width="1210">
     <Grid>
         <Label Content="Sobre" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="1210" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="0,28,0,0"/>
-        <Label Content="BláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBláBlá" Margin="0,0,147,277" VerticalAlignment="Bottom" Height="300" HorizontalAlignment="Right" Width="900"/>
+        <TextBox HorizontalAlignment="Left" Height="95" Margin="252,104,0,0" Text="Projeto desenvolvido para o Bristol Zaniboni Hotel para gerenciar salas e fazer  o controle de salas, para permitir que as  pessoas compartilharem informações,além dos dados que ficam registrado no sistema .E como parte integral do TCC do curso técnico de informática na escola Etec Pedro Ferreira Alves desenvolvido pelos alunos Ariel Simão , Karine Marriel, Nathalia Pires, Julia Castilho, Matheus Dantas e Leandra Pilla." VerticalAlignment="Top" Width="722" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" MinLines="10" SpellCheck.IsEnabled="True" SelectionOpacity="0" UndoLimit="10000" Foreground="Black" TextChanged="TextBox_TextChanged" BorderThickness="0" TextOptions.TextHintingMode="Fixed" TextWrapping="Wrap" IsHitTestVisible="True" Focusable="False" AutomationProperties.IsOffscreenBehavior="Offscreen"/>
 
     </Grid>
 

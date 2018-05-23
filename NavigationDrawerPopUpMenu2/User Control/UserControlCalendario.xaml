@@ -9,7 +9,7 @@
              Background="#FFE0E0E0" Width="1210" Height="700">
     <StackPanel Margin="10">
         <Grid Height="678">
-            <Calendar Name="CalendarioCalendario" HorizontalAlignment="Left" Margin="28,66,0,0" VerticalAlignment="Top"/>
+            <Calendar Name="CalendarioCalendario" Language="pt-br" HorizontalAlignment="Left" Margin="28,66,0,0" VerticalAlignment="Top"/>
             <DataGrid Name="DgCalendario" HorizontalAlignment="Left" Height="570" Margin="340,66,0,0" VerticalAlignment="Top" Width="810"/>
             <Label Content="Calendario" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="1190" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="0,10,0,0"/>
             <GroupBox  Header="Filtrar" HorizontalAlignment="Left" Height="155" Margin="28,439,0,0" VerticalAlignment="Top" Width="278">

@@ -8,7 +8,7 @@
               d:DesignHeight="300" d:DesignWidth="300" Background="#FFE0E0E0" Height="700" Width="1210">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="Images/logo.jpeg"/>
+            <ImageBrush />
         </Grid.Background>
 
     </Grid>

@@ -34,22 +34,22 @@
         <Label Content="Sex" HorizontalAlignment="Left" Margin="712,62,0,0" VerticalAlignment="Top" FontSize="30" Width="143" Height="55" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" RenderTransformOrigin="0.142,0.545"/>
         <Label Content="Sab" HorizontalAlignment="Left" Margin="860,63,0,0" VerticalAlignment="Top" FontSize="30" Width="143" Height="55" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" RenderTransformOrigin="0.142,0.545"/>
         <Label Content="Dom" HorizontalAlignment="Left" Margin="1008,63,0,0" VerticalAlignment="Top" FontSize="30" Width="143" Height="55" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" RenderTransformOrigin="0.142,0.545"/>
-        <ComboBox Name="CbSalaUmSegInicio" HorizontalAlignment="Left" Margin="163,134,0,0" VerticalAlignment="Top" Width="125">
+        <ComboBox Name="CbSalaUmSegInicio" HorizontalAlignment="Left" Margin="163,134,0,0" VerticalAlignment="Top" Width="125" Foreground="Black">
             <ComboBox Width="120"/>
         </ComboBox>
-        <ComboBox Name="CbxSalaUmSegFim" HorizontalAlignment="Left" Margin="163,200,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmTerInicio" HorizontalAlignment="Left" Margin="306,134,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmTerFim" HorizontalAlignment="Left" Margin="306,200,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmQuaInicio" HorizontalAlignment="Left" Margin="449,134,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmQuaFim" HorizontalAlignment="Left" Margin="449,200,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmQuiInicio" HorizontalAlignment="Left" Margin="587,134,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmQuiFim" HorizontalAlignment="Left" Margin="587,200,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmSexInicio" HorizontalAlignment="Left" Margin="730,134,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmSexFim" HorizontalAlignment="Left" Margin="730,200,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmSabInicio" HorizontalAlignment="Left" Margin="878,134,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmSabFim" HorizontalAlignment="Left" Margin="878,200,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbxSalaUmDomInicio" HorizontalAlignment="Left" Margin="1026,134,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox Name="CbSalaUmDomFim" HorizontalAlignment="Left" Margin="1026,200,0,0" VerticalAlignment="Top" Width="125"/>
+        <ComboBox Name="CbxSalaUmSegFim" HorizontalAlignment="Left" Margin="163,200,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmTerInicio" HorizontalAlignment="Left" Margin="306,134,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmTerFim" HorizontalAlignment="Left" Margin="306,200,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmQuaInicio" HorizontalAlignment="Left" Margin="449,134,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmQuaFim" HorizontalAlignment="Left" Margin="449,200,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmQuiInicio" HorizontalAlignment="Left" Margin="587,134,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmQuiFim" HorizontalAlignment="Left" Margin="587,200,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmSexInicio" HorizontalAlignment="Left" Margin="730,134,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmSexFim" HorizontalAlignment="Left" Margin="730,200,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmSabInicio" HorizontalAlignment="Left" Margin="878,134,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmSabFim" HorizontalAlignment="Left" Margin="878,200,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbxSalaUmDomInicio" HorizontalAlignment="Left" Margin="1026,134,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox Name="CbSalaUmDomFim" HorizontalAlignment="Left" Margin="1026,200,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
         <Label Content="as" HorizontalAlignment="Left" Margin="163,172,0,0" VerticalAlignment="Top" Width="125" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23"/>
         <Label Content="as" HorizontalAlignment="Left" Margin="306,172,0,0" VerticalAlignment="Top" Width="125" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23"/>
         <Label Content="as" HorizontalAlignment="Left" Margin="449,172,0,0" VerticalAlignment="Top" Width="125" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23"/>
@@ -65,20 +65,20 @@
         <CheckBox Name="CbSalaUmSabFechado" Content="Fechado" HorizontalAlignment="Left" Margin="878,238,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
         <CheckBox Name="CbSalaUmDomFechado" Content="Fechado" HorizontalAlignment="Left" Margin="1026,238,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
         <Grid HorizontalAlignment="Left" Height="149" Margin="136,306,0,0" VerticalAlignment="Top" Width="152"/>
-        <ComboBox x:Name="CbxSalaDoisSegInicio" HorizontalAlignment="Left" Margin="163,320,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisSegFim" HorizontalAlignment="Left" Margin="163,386,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisTerInicio" HorizontalAlignment="Left" Margin="306,320,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisTerFim" HorizontalAlignment="Left" Margin="306,386,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisQuaInicio" HorizontalAlignment="Left" Margin="449,320,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisQuaFim" HorizontalAlignment="Left" Margin="449,386,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisQuiInicio" HorizontalAlignment="Left" Margin="587,320,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisQuiFim" HorizontalAlignment="Left" Margin="587,386,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisSexInicio" HorizontalAlignment="Left" Margin="730,320,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisSexFim" HorizontalAlignment="Left" Margin="730,386,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisSabInicio" HorizontalAlignment="Left" Margin="878,320,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisSabFim" HorizontalAlignment="Left" Margin="878,386,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisDomInicio" HorizontalAlignment="Left" Margin="1026,320,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaDoisDomFim" HorizontalAlignment="Left" Margin="1026,386,0,0" VerticalAlignment="Top" Width="125"/>
+        <ComboBox x:Name="CbxSalaDoisSegInicio" HorizontalAlignment="Left" Margin="163,320,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisSegFim" HorizontalAlignment="Left" Margin="163,386,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisTerInicio" HorizontalAlignment="Left" Margin="306,320,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisTerFim" HorizontalAlignment="Left" Margin="306,386,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisQuaInicio" HorizontalAlignment="Left" Margin="449,320,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisQuaFim" HorizontalAlignment="Left" Margin="449,386,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisQuiInicio" HorizontalAlignment="Left" Margin="587,320,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisQuiFim" HorizontalAlignment="Left" Margin="587,386,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisSexInicio" HorizontalAlignment="Left" Margin="730,320,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisSexFim" HorizontalAlignment="Left" Margin="730,386,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisSabInicio" HorizontalAlignment="Left" Margin="878,320,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisSabFim" HorizontalAlignment="Left" Margin="878,386,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisDomInicio" HorizontalAlignment="Left" Margin="1026,320,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaDoisDomFim" HorizontalAlignment="Left" Margin="1026,386,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
         <Label Content="as" HorizontalAlignment="Left" Margin="163,358,0,0" VerticalAlignment="Top" Width="125" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23"/>
         <Label Content="as" HorizontalAlignment="Left" Margin="306,358,0,0" VerticalAlignment="Top" Width="125" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23"/>
         <Label Content="as" HorizontalAlignment="Left" Margin="449,358,0,0" VerticalAlignment="Top" Width="125" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="23"/>
@@ -93,20 +93,20 @@
         <CheckBox x:Name="CbSalaDoisSexFechado" Content="Fechado" HorizontalAlignment="Left" Margin="730,424,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
         <CheckBox x:Name="CbSalaDoisSabFechado" Content="Fechado" HorizontalAlignment="Left" Margin="878,424,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
         <CheckBox x:Name="CbSalaDoisDomFechado" Content="Fechado" HorizontalAlignment="Left" Margin="1026,424,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
-        <ComboBox x:Name="CbxSalaTresSegInicio" HorizontalAlignment="Left" Margin="163,496,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresSegFim" HorizontalAlignment="Left" Margin="163,562,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresTerInicio" HorizontalAlignment="Left" Margin="306,496,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresTerFim" HorizontalAlignment="Left" Margin="306,562,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresQuaInicio" HorizontalAlignment="Left" Margin="449,496,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresQuaFim" HorizontalAlignment="Left" Margin="449,562,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresQuiInicio" HorizontalAlignment="Left" Margin="587,496,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresQuiFim" HorizontalAlignment="Left" Margin="587,562,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresSexInicio" HorizontalAlignment="Left" Margin="730,496,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresSexFim" HorizontalAlignment="Left" Margin="730,562,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresSabInicio" HorizontalAlignment="Left" Margin="878,496,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresSabFim" HorizontalAlignment="Left" Margin="878,562,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresDomInicio" HorizontalAlignment="Left" Margin="1026,496,0,0" VerticalAlignment="Top" Width="125"/>
-        <ComboBox x:Name="CbxSalaTresDomFim" HorizontalAlignment="Left" Margin="1026,562,0,0" VerticalAlignment="Top" Width="125"/>
+        <ComboBox x:Name="CbxSalaTresSegInicio" HorizontalAlignment="Left" Margin="163,496,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresSegFim" HorizontalAlignment="Left" Margin="163,562,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresTerInicio" HorizontalAlignment="Left" Margin="306,496,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresTerFim" HorizontalAlignment="Left" Margin="306,562,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresQuaInicio" HorizontalAlignment="Left" Margin="449,496,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresQuaFim" HorizontalAlignment="Left" Margin="449,562,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresQuiInicio" HorizontalAlignment="Left" Margin="587,496,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresQuiFim" HorizontalAlignment="Left" Margin="587,562,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresSexInicio" HorizontalAlignment="Left" Margin="730,496,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresSexFim" HorizontalAlignment="Left" Margin="730,562,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresSabInicio" HorizontalAlignment="Left" Margin="878,496,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresSabFim" HorizontalAlignment="Left" Margin="878,562,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresDomInicio" HorizontalAlignment="Left" Margin="1026,496,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
+        <ComboBox x:Name="CbxSalaTresDomFim" HorizontalAlignment="Left" Margin="1026,562,0,0" VerticalAlignment="Top" Width="125" Foreground="Black"/>
         <Label Content="as" HorizontalAlignment="Left" Margin="163,534,0,0" VerticalAlignment="Top" Width="125" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="22"/>
         <Label Content="as" HorizontalAlignment="Left" Margin="306,534,0,0" VerticalAlignment="Top" Width="125" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="22"/>
         <Label Content="as" HorizontalAlignment="Left" Margin="449,534,0,0" VerticalAlignment="Top" Width="125" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="22"/>

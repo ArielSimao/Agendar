@@ -10,12 +10,12 @@
         <Label Content="Reserva De Sala" HorizontalAlignment="Left" VerticalAlignment="Top" Height="47" Width="1210" FontSize="18" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="0,28,0,0"/>
         <GroupBox Header="Dados Do Contratante" HorizontalAlignment="Left" Height="246" Margin="43,77,0,0" VerticalAlignment="Top" Width="453">
             <Grid HorizontalAlignment="Left" Height="187" VerticalAlignment="Top" Width="414" Margin="0,-3,0,0">
-                <TextBox x:Name="TxtResponsavel" HorizontalAlignment="Left" Height="23" Margin="85,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319"/>
-                <TextBox x:Name="TxtEmail" HorizontalAlignment="Left" Height="23" Margin="85,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319"/>
-                <TextBox x:Name="TxtCPF" HorizontalAlignment="Left" Height="23" Margin="85,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319"/>
-                <TextBox x:Name="TxtRG" HorizontalAlignment="Left" Height="23" Margin="85,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319"/>
-                <TextBox x:Name="TxtTelefone" HorizontalAlignment="Left" Height="23" Margin="85,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319"/>
-                <TextBox x:Name="TxtCelular" HorizontalAlignment="Left" Height="23" Margin="85,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319"/>
+                <TextBox x:Name="TxtResponsavel" HorizontalAlignment="Left" Height="23" Margin="85,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319" Foreground="Black"/>
+                <TextBox x:Name="TxtEmail" HorizontalAlignment="Left" Height="23" Margin="85,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319" Foreground="Black"/>
+                <TextBox x:Name="TxtCPF" HorizontalAlignment="Left" Height="23" Margin="85,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319" Foreground="Black"/>
+                <TextBox x:Name="TxtRG" HorizontalAlignment="Left" Height="23" Margin="85,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319" Foreground="Black"/>
+                <TextBox x:Name="TxtTelefone" HorizontalAlignment="Left" Height="23" Margin="85,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319" Foreground="Black"/>
+                <TextBox x:Name="TxtCelular" HorizontalAlignment="Left" Height="23" Margin="85,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="319" Foreground="Black"/>
                 <Label Content="Responsavel" HorizontalAlignment="Left" Margin="5,15,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="75"/>
                 <Label Content="Email :" HorizontalAlignment="Left" Margin="5,43,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="75"/>
                 <Label Content="CPF :" HorizontalAlignment="Left" Margin="5,71,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="75"/>
@@ -26,20 +26,20 @@
         </GroupBox>
         <GroupBox Header="Dados Do Evento" HorizontalAlignment="Left" Height="246" Margin="43,342,0,0" VerticalAlignment="Top" Width="453">
             <Grid HorizontalAlignment="Left" Height="198" Margin="0,-3,0,-1" VerticalAlignment="Top" Width="443">
-                <TextBox x:Name="TxtTitulo" HorizontalAlignment="Left" Height="23" Margin="100,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283"/>
+                <TextBox x:Name="TxtTitulo" HorizontalAlignment="Left" Height="23" Margin="100,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="283" Foreground="Black"/>
                 <Label Content="Titulo :" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
                 <Label Content="Inicio :" HorizontalAlignment="Left" Margin="44,53,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50" Height="25"/>
                 <Label Content="Fim :" HorizontalAlignment="Left" Margin="44,88,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
                 <Label Content="Hora :" HorizontalAlignment="Left" Margin="213,53,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
                 <Label Content="Hora :" HorizontalAlignment="Left" Margin="213,88,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
                 <Label Content="Sala :" HorizontalAlignment="Left" Margin="44,130,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
-                <ComboBox Name="CbxSala" HorizontalAlignment="Left" Margin="100,128,0,0" VerticalAlignment="Top" Width="101"/>
+                <ComboBox Name="CbxSala" HorizontalAlignment="Left" Margin="100,128,0,0" VerticalAlignment="Top" Width="101" Foreground="Black"/>
                 <Label Content="Qnt. Pessoas :" HorizontalAlignment="Left" Margin="10,166,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="84"/>
-                <DatePicker Name="DtpInicioEvento" HorizontalAlignment="Left" Margin="99,52,0,0" VerticalAlignment="Top" Width="100" Height="25" BorderBrush="#89020202"/>
-                <DatePicker Name="DtpFimEvento"  HorizontalAlignment="Left" Margin="100,88,0,0" VerticalAlignment="Top" Width="100" Height="25"/>
-                <TextBox Name="TxtQtnPessoas" HorizontalAlignment="Left" Height="23" Margin="100,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="101"/>
-                <ComboBox Name="CbxHoraInicioEvento" Margin="263,53,60,117"/>
-                <ComboBox Name="CbxHoraFimEvento" Margin="263,86,60,84"/>
+                <DatePicker Name="DtpInicioEvento" HorizontalAlignment="Left" Margin="99,52,0,0" VerticalAlignment="Top" Width="100" Height="25" BorderBrush="#89020202" Foreground="Black"/>
+                <DatePicker Name="DtpFimEvento"  HorizontalAlignment="Left" Margin="100,88,0,0" VerticalAlignment="Top" Width="100" Height="25" Foreground="Black"/>
+                <TextBox Name="TxtQtnPessoas" HorizontalAlignment="Left" Height="23" Margin="100,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="101" Foreground="Black"/>
+                <ComboBox Name="CbxHoraInicioEvento" Margin="263,53,60,117" Foreground="Black"/>
+                <ComboBox Name="CbxHoraFimEvento" Margin="263,86,60,84" Foreground="Black"/>
 
             </Grid>
         </GroupBox>
@@ -53,7 +53,7 @@
                 <TextBox Name="TxtQntMesa" HorizontalAlignment="Left" Height="23" Margin="186,120,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="84" Foreground="Black"/>
                 <CheckBox Name="CbDecoracao" Content="Decoracao" HorizontalAlignment="Left" Margin="0,154,0,0" VerticalAlignment="Top" Foreground="Black"/>
                 <Label Content="Cor :" HorizontalAlignment="Left" Margin="103,151,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.579,0.538" HorizontalContentAlignment="Right" Width="78"/>
-                <ComboBox Name="CbxCorDecoracao" HorizontalAlignment="Left" Margin="186,149,0,0" VerticalAlignment="Top" Width="84"/>
+                <ComboBox Name="CbxCorDecoracao" HorizontalAlignment="Left" Margin="186,149,0,0" VerticalAlignment="Top" Width="84" Foreground="Black"/>
             </Grid>
         </GroupBox>
         <GroupBox Header="Coffee" HorizontalAlignment="Left" Height="246" Margin="549,342,0,0" VerticalAlignment="Top" Width="599">
@@ -74,6 +74,6 @@
         <Button Content="Limpar" HorizontalAlignment="Left" Margin="710,638,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="Excluir" HorizontalAlignment="Left" Margin="557,638,0,0" VerticalAlignment="Top" Width="100"/>
         <Button Content="Pesquisar" HorizontalAlignment="Left" Margin="871,638,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBox HorizontalAlignment="Left" Height="32" Margin="976,638,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="172" BorderThickness="1"/>
+        <TextBox HorizontalAlignment="Left" Height="32" Margin="976,638,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="172" BorderThickness="1" Foreground="Black"/>
     </Grid>
 </UserControl>

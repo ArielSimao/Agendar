@@ -24,5 +24,10 @@ namespace Agendar.User_Control
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
